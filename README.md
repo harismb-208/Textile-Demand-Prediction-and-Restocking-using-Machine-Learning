@@ -43,7 +43,7 @@ This tool turns sales data into **clear, actionable insights** so you can:
 ---
 
  Tech Behind the Scenes
-Python for the whole project
+Python for the whole project:
 
 pandas, numpy for data wrangling
 
@@ -86,11 +86,11 @@ Edit
 streamlit run app.py
 Your Textile Demand Forecast Dashboard will open in your default browser, showing:
 
-Historical sales trends 📈
+1.Histrical sales trends 📈
 
-3-month demand predictions 🔮
+2.3-month demand predictions 🔮
 
-Priority-based restocking recommendations 📦
+3.Priority-based restocking recommendations 📦
 
 ⚠️ Important: If you skip Step 1, the dashboard will show missing file errors — because it won’t have any predictions, charts, or tables to display.
 
