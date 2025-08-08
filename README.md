@@ -42,7 +42,7 @@ This tool turns sales data into **clear, actionable insights** so you can:
 
 ---
 
- Tech Behind the Scenes
+## 🛠  Tech Behind the Scenes
 Python for the whole project:
 
 pandas, numpy for data wrangling
