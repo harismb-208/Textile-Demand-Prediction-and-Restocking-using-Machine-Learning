@@ -106,3 +106,6 @@ c. Priority-based restocking recommendations 📦
 
 ### Restocking Recommendations
 ![Restock Recommendations](images/cell12_predicted_materials.png)
+
+- [Forecast Materials (Jan 2025 – Mar 2025)](images/forecast_materials.xlsx)
+- [Top 9 Unique Items Per Material (Last 6 Months)](images/Top9_Unique_Items_Per_Material_Last6Months.xlsx)  
