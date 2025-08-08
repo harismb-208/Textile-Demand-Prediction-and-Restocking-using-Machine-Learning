@@ -86,11 +86,11 @@ Edit
 streamlit run app.py
 Your Textile Demand Forecast Dashboard will open in your default browser, showing:
 
-1.Histrical sales trends 📈
+a. Histrical sales trends 📈
 
-2.3-month demand predictions 🔮
+b. 3-month demand predictions 🔮
 
-3.Priority-based restocking recommendations 📦
+c. Priority-based restocking recommendations 📦
 
 ⚠️ Important: If you skip Step 1, the dashboard will show missing file errors — because it won’t have any predictions, charts, or tables to display.
 
