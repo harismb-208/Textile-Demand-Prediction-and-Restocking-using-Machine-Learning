@@ -42,6 +42,19 @@ This tool turns sales data into **clear, actionable insights** so you can:
 
 ---
 
+ Tech Behind the Scenes
+Python for the whole project
+
+pandas, numpy for data wrangling
+
+XGBoost for prediction
+
+matplotlib, seaborn for charts
+
+Streamlit for the dashboard
+
+---
+
 ## 🚀 How to Run
 
 ### 1️⃣ Run Locally
@@ -57,18 +70,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
----
 
-🧩 Tech Behind the Scenes
-Python for the whole project
-
-pandas, numpy for data wrangling
-
-XGBoost for prediction
-
-matplotlib, seaborn for charts
-
-Streamlit for the dashboard
 
 
 
