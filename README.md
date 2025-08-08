@@ -56,39 +56,41 @@ Streamlit for the dashboard
 ---
 
 🚀 How to Run the Project
-This project consists of two key components:
+This project delivers a complete pipeline – from machine learning–powered demand forecasting to a fully interactive visualization dashboard.
 
-Data Processing & Forecast Generation – Performed in finalinternproject.ipynb
+📌 Step 1 – Generate Forecasts & Insights
+💡 Think of this as “charging” the dashboard with fresh predictions.
 
-Interactive Visualization Dashboard – Implemented in app.py using Streamlit
+Open finalinternproject.ipynb in Jupyter Notebook, VS Code, or any compatible IDE.
 
-Step 1 – Generate Forecast Outputs
-Run the Jupyter Notebook finalinternproject.ipynb in Jupyter, VS Code, or any compatible environment.
-Executing all cells will produce the following output files required by the Streamlit application:
+Run all cells.
 
-Images (.png) – Visualization charts (e.g., cell2_total_sales_year.png, cell11_forecast_xgboost.png)
+The notebook will automatically generate and save:
 
-Excel Files (.xlsx) – Forecast tables and recommendations (e.g., forecast_materials.xlsx, top5_items_by_period.xlsx)
+📊 Charts (.png) — e.g., cell2_total_sales_year.png, cell11_forecast_xgboost.png
 
-These files are automatically saved to the project directory.
+📑 Data Tables (.xlsx) — e.g., forecast_materials.xlsx, top5_items_by_period.xlsx
 
-Step 2 – Launch the Streamlit Dashboard
-Once the notebook has been executed and the output files have been generated:
+These files will be saved in the project folder and will feed directly into the Streamlit app.
+
+📌 Step 2 – Launch the Interactive Dashboard
+💡 Now, watch the insights come to life.
 
 Open a terminal in the project directory.
 
-Run the following command:
+Run:
 
 bash
 Copy
 Edit
 streamlit run app.py
-The dashboard will launch in your default web browser, displaying:
+Your Textile Demand Forecast Dashboard will open in your default browser, showing:
 
-Historical sales trends
+Historical sales trends 📈
 
-Predicted demand for the next three months
+3-month demand predictions 🔮
 
-Restocking priority recommendations
+Priority-based restocking recommendations 📦
 
-Note: Running app.py without first executing the notebook will result in missing file errors, as the necessary PNG and Excel outputs will not exist.
+⚠️ Important: If you skip Step 1, the dashboard will show missing file errors — because it won’t have any predictions, charts, or tables to display.
+
