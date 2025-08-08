@@ -56,40 +56,28 @@ Streamlit for the dashboard
 ---
 
 🚀 How to Run the Project
-This project has two parts:
+This project consists of two key components:
+Data Processing & Forecast Generation – Performed in finalinternproject.ipynb
+Interactive Visualization Dashboard – Implemented in app.py using Streamlit
 
-Jupyter Notebook (finalinternproject.ipynb) – Generates all output files (images & Excel sheets).
+Step 1 – Generate Forecast Outputs
+Run the Jupyter Notebook finalinternproject.ipynb in Jupyter, VS Code, or any compatible environment.
+Executing all cells will produce the following output files required by the Streamlit application:
+Images (.png) – Visualization charts (e.g., cell2_total_sales_year.png, cell11_forecast_xgboost.png)
+Excel Files (.xlsx) – Forecast tables and recommendations (e.g., forecast_materials.xlsx, top5_items_by_period.xlsx)
+These files are automatically saved to the project directory.
 
-Streamlit App (app.py) – Displays those outputs in an interactive dashboard.
-
-1️⃣ Run the Notebook
-Open finalinternproject.ipynb in Jupyter Notebook or VS Code.
-
-Run all cells.
-
-This will save the output as:
-
-PNG images (e.g., cell2_total_sales_year.png, cell11_forecast_xgboost.png)
-
-Excel files (e.g., forecast_materials.xlsx, top5_items_by_period.xlsx)
-
-These files are used by the Streamlit app.
-
-2️⃣ Run the Streamlit Dashboard
-After running the notebook, open a terminal in the project folder.
-
-Run:
-
+Step 2 – Launch the Streamlit Dashboard
+Once the notebook has been executed and the output files have been generated:
+Open a terminal in the project directory.
+Run the following command:
 bash
 Copy
 Edit
 streamlit run app.py
-The dashboard will open in your default web browser.
+The dashboard will launch in your default web browser, displaying:
+Historical sales trends
+Predicted demand for the next three months
+Restocking priority recommendations
 
-💡 Note: If you skip running the notebook, the Streamlit app will show errors because the required image and Excel files will be missing.
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Start dashboard
-streamlit run app.py
+Note: Running app.py without first executing the notebook will result in missing file errors, as the necessary PNG and Excel outputs will not exist.
