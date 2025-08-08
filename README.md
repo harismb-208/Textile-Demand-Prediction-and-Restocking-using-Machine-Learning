@@ -55,13 +55,38 @@ Streamlit for the dashboard
 
 ---
 
-## 🚀 How to Run
+🚀 How to Run the Project
+This project has two parts:
 
-### 1️⃣ Run Locally
-```bash
-# Clone the repo
-git clone https://github.com/YourUsername/Textile-Demand-Prediction.git
-cd Textile-Demand-Prediction
+Jupyter Notebook (finalinternproject.ipynb) – Generates all output files (images & Excel sheets).
+
+Streamlit App (app.py) – Displays those outputs in an interactive dashboard.
+
+1️⃣ Run the Notebook
+Open finalinternproject.ipynb in Jupyter Notebook or VS Code.
+
+Run all cells.
+
+This will save the output as:
+
+PNG images (e.g., cell2_total_sales_year.png, cell11_forecast_xgboost.png)
+
+Excel files (e.g., forecast_materials.xlsx, top5_items_by_period.xlsx)
+
+These files are used by the Streamlit app.
+
+2️⃣ Run the Streamlit Dashboard
+After running the notebook, open a terminal in the project folder.
+
+Run:
+
+bash
+Copy
+Edit
+streamlit run app.py
+The dashboard will open in your default web browser.
+
+💡 Note: If you skip running the notebook, the Streamlit app will show errors because the required image and Excel files will be missing.
 
 # Install dependencies
 pip install -r requirements.txt
