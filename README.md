@@ -92,6 +92,10 @@ c. Priority-based restocking recommendations 📦
 
 ⚠️ Important: If you skip Step 1, the dashboard will show missing file errors — because it won’t have any predictions, charts, or tables to display.
 
+
+---
+
+
 ## 📊 Sample Output
 
 ### Total Sales — Yearly
