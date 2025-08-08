@@ -105,7 +105,7 @@ c. Priority-based restocking recommendations 📦
 ---
 
 📊 **[Forecast Materials (Jan 2025 – Mar 2025)](images/forecast_materials.xlsx)**  
-Get the predicted sales quantities for each textile material for the next 3 months.[Forecast Materials (Jan 2025 – Mar 2025)](images/forecast_materials.xlsx)
+Get the predicted sales quantities for each textile material for the next 3 months.
 
 ---
 
