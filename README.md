@@ -92,3 +92,17 @@ c. Priority-based restocking recommendations 📦
 
 ⚠️ Important: If you skip Step 1, the dashboard will show missing file errors — because it won’t have any predictions, charts, or tables to display.
 
+## 📊 Sample Output
+
+### Total Sales — Yearly
+![Total Sales Per Year](images/cell2_total_sales_year.png)
+
+---
+
+### Demand Forecast (Next 3 Months)
+![Forecast Graph (XGBoost)](images/cell11_forecast_xgboost.png)
+
+---
+
+### Restocking Recommendations
+![Restock Recommendations](images/cell12_predicted_materials.png)
