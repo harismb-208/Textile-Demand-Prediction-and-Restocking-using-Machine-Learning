@@ -80,8 +80,6 @@ Open a terminal in the project directory.
 
 Run:
 
-bash
-
 streamlit run app.py
 
 Your Textile Demand Forecast Dashboard will open in your default browser, showing:
