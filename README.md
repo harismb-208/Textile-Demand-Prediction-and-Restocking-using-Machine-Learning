@@ -2,7 +2,7 @@
 
 This project predicts **which fabrics will sell in the next 3 months** and tells you **which ones to restock first**.  
 It’s like having a smart inventory assistant that looks at your past sales and says:  
-> “Hey, this fabric is running low and will sell out soon — better restock it now!”  
+> “Hey, this fabric is going to run high and will sell out soon — better restock it now!”  
 
 Built with:
 - **XGBoost** for super-accurate demand prediction
